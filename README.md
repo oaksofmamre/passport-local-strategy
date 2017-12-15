@@ -4,17 +4,17 @@ Using Passport to authenticate users via a username and password
 
 ## Synopsis
 
-This app simply authenticates a user with a username / password pair using Passport's `LocalStrategy` authentication. Passport is authentication middleware for Node.js
+This app simply authenticates a user with a username / password pair using Passport's `passport-local` strategy authentication. Passport is authentication middleware for Node.js
 
 ## Usage
 
-From command-line:
+To start the web-server:
 
 ```
 node index
 ```
 
-From browser:
+To access from the browser:
 
 ```
 localhost:4000
